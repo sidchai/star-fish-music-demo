@@ -1,0 +1,103 @@
+.my-leftbar-content {
+    padding: 30px;
+    background: #fff;
+}
+.pics-wrap {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+}
+.pics-wrap img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    border: 5px solid white;
+}
+.panel {
+    margin-top: 60px;
+    width: 250px;
+}
+.panel .section-content {
+    margin-top: 20px;
+    line-height: 1.3em;
+}
+.artist-info {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 30px
+}
+.artist-info>li {
+    padding-top: 20px;
+}
+.section {
+    margin-left: 50px;
+    padding: 100px 50px;
+}
+.section .intro {
+    font-size: 20px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.intro>span {
+    color: rgba(0, 0, 0, 0.5);
+}
+.songs {
+    margin-top: 50px;
+}
+.songs .content {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px 40px;
+    min-width: 700px;
+}
+.songs .content .title {
+    text-align: center;
+}
+.songs .content>ul {
+    width: 100%;
+    padding-bottom: 50px;
+}
+.songs .content>ul>li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 20px;
+}
+.song-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.song-item .item-index {
+    width: 5%;
+}
+.song-item .item-title {
+    width: 30%;
+}
+.song-item .item-name {
+    width: 20%;
+}
+.song-item .item-intro {
+    width: 45%;
+}
+.list-content {
+    cursor: pointer;
+}

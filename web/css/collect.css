@@ -1,0 +1,129 @@
+img {
+    border-style: none;
+}
+.sticky-leftbar {
+    float: left;
+    width: 265px;
+    z-index: 8;
+    position: relative;
+}
+.sticky-leftbar .leftbar-inner {
+    padding: 70px 0 74px;
+}
+.sticky-leftbar .leftbar-inner .my-leftbar-content {
+    padding: 30px;
+    background: #fff;
+}
+.collect-intro .collect-logo {
+    position: relative;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.collect-intro .collect-logo .cover {
+    position: relative;
+    z-index: 2;
+    padding-top: 100%;
+    background-color: #d9d9d9;
+    border-radius: 10%;
+}
+.collect-intro .collect-logo .cover .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+.collect-intro .collect-logo .cover .image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.collect-intro .collect-intro-title {
+    width: 100%;
+    height: 46px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 72px;
+    margin-bottom: 20px;
+}
+.collect-intro .collect-intro-text {
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: block;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+    max-height: 14em;
+    font-weight: 300;
+    word-break: break-all;
+}
+.page-container .content-wrapper .view-body {
+    margin-left: 280px;
+    padding: 125px 0 94px;
+}
+.info-wrapper {
+    position: relative;
+}
+.collect-info {
+    min-height: 87px;
+    margin: 0 15px;
+}
+.titleInfo .titleInfo-name {
+    font-size: 24px;
+    font-weight: 700;
+}
+.titleInfo .titleInfo-artist {
+    margin-top: 20px;
+}
+.collect-info .collect-user-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 30px;
+    padding-bottom: 30px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+}
+.collect-info .collect-user-item .cover {
+    position: relative;
+}
+.collect-info .collect-user-item .cover img {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.collect-info .collect-user-item .name {
+    margin-left: 10px;
+    font-weight: 400;
+}
+.collect-songs {
+    margin: 15px;
+    -webkit-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+    word-break: break-all;
+}
+.layui-table-page{
+    text-align: center
+}
+.is-none {
+    display: none;
+}

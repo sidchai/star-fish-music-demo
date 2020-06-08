@@ -1,0 +1,25 @@
+span {
+    font-size: 18px;
+    color: #999;
+    cursor: pointer
+}
+.current {
+    color: #ff410f;
+    font-weight: 700;
+}
+.forget-tab span:first-of-type{
+    margin-right: 26px;
+}
+.my-isConceal {
+    display: none;
+}
+.my-video {
+    width: 216px;
+    height: 468px
+}
+.need-validata {
+    border: #4a4a4a;
+    width: 610px;
+    height: 470px;
+    background-color: #eee;
+}

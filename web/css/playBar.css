@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-audio {
+    width: 100%;
+    height: 60px;
+    background-size: cover;
+}
+
+.icn {
+    float: left;
+    width: 25px;
+    height: 25px;
+    /*background-repeat: no-repeat;*/
+    margin: 20px 20px;
+
+}
+.my-bottom-right{
+    float: right;
+    width: 350px;
+    height: 60px;
+    text-align: center;
+    position: relative;
+}
+.btn-repeat{
+    float: left;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    margin: 20px 10px;
+}
+.dis_none {
+    display: none;
+}
+
+/*收藏*/
+.icn.collect-bar{
+    background-image: url(../img/playBar/collect.png);
+}
+
+/*循环播放*/
+.btn-repeat.loop{
+    background-image: url(../img/playBar/loop.png);
+}
+
+/*随机播放*/
+.btn-repeat.random{
+    background-image: url(../img/playBar/random.png);
+}
+
+/*单曲循环*/
+.btn-repeat.single{
+    background-image: url(../img/playBar/single.png);
+}
+
+/*播放列表*/
+.btn-repeat.list{
+    margin-top: 15px;
+    background-image: url(../img/playBar/list.png);
+}
+
+/*音量*/
+.icn.btn-mute{
+    background-image: url(../img/playBar/mute.png);
+}
+.icn.btn-volume{
+    background-image: url(../img/playBar/volume.png);
+}
+/*收藏*/
+.btn-collect {
+    background-image: url(../img/playBar/collect.png);
+    width: 25px;
+    height: 16px;
+    background-repeat: no-repeat;
+    float: left;
+}
+/*下载*/
+.btn-download {
+    background-image: url(../img/playBar/download.png);
+    width: 25px;
+    height: 16px;
+    background-repeat: no-repeat;
+    float: right;
+}
+.range2 {
+    width: 115px;
+    height: 4px;
+    background: #009688;
+    border-radius: 10px;
+    -webkit-appearance: none !important;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+.range2::-webkit-slider-thumb {
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border: 1px solid #1E9FFF;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-appearance: none !important;
+}
+/* 进度条 */
+.range {
+    width: 490px;
+    height: 4px;
+    background: #009688;
+    border-radius: 10px;
+    -webkit-appearance: none !important;
+    position: absolute;
+    left: 6px;
+}
+/* 进度滑块 */
+.range::-webkit-slider-thumb {
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border: 1px solid #1E9FFF;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-appearance: none !important;
+}
+
+.singerPic {
+    width: 34px;
+    height: 35px;
+    border: 1px solid;
+}

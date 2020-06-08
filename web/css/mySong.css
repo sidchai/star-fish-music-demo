@@ -1,0 +1,45 @@
+.my-leftbar-content {
+    position:fixed;
+    padding: 30px;
+}
+.personal-panel .avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
+}
+.personal-panel .avatar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.personal-panel .name {
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    max-width: 205px;
+}
+.personal-panel .talentDes {
+    font-size: 14px;
+    margin-top: 30px;
+    font-weight: 300;
+}
+.personal-panel .signature {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.personal-panel .description {
+    margin-top: 15px;
+    color: #999;
+    font-weight: 300;
+}
+.personal-panel .versatile {
+    padding-left: 80px;
+}
+.layui-table-page{
+    text-align: center
+}

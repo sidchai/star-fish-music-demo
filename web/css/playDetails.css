@@ -1,0 +1,153 @@
+.my-leftbar-content {
+    position:fixed;
+    padding: 30px;
+}
+.info-panel {
+    margin-top: 30px;
+}
+.info-panel .info {
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.info-panel .info .info-name {
+    min-width: 56px;
+    margin-right: 15px;
+    font-weight: 300;
+    color: grey;
+}
+.info-panel .info .info-value {
+    max-width: 150px;
+}
+.info-panel .info-value a {
+    color: #165aa6;
+}
+.my-view-body {
+    margin:30px 0 0 280px;
+}
+.titleInfo .titleInfo-name {
+    font-size: 24px;
+    font-weight: 700;
+}
+.titleInfo .titleInfo-alias {
+    margin-top: 5px;
+    font-weight: 300;
+    color: grey;
+}
+.titleInfo-artist {
+    margin-top: 5px;
+}
+.titleInfo-artist .singer-item {
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.singers .singer-avatar {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #d8d8d8;
+}
+.singers .singer-name {
+    margin-left: 10px;
+    font-weight: 400;
+}
+.titleInfo .titleInfo-tag {
+    margin-top: 15px;
+}
+.tags .tag-item:last-of-type {
+    margin-right: 0;
+}
+.tags .tag-item a {
+    font-size: 12px;
+    color: #ff410f;
+}
+/*.song-operations {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}*/
+/*.song-operations .unselectable {
+    margin-right: 15px;
+}*/
+.song-lyric {
+    position: relative;
+    margin-top: 30px;
+}
+.song-lyric .lyric-title {
+    margin-bottom: 30px;
+}
+.song-lyric .lyric-content {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 540px;
+}
+/*.comment-list-wrapper {
+    margin-top: 30px;
+}*/
+.comment-list-wrapper .add-comment .user-avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.comment-list-wrapper .add-comment .count {
+    font-weight: 300;
+}
+.control {
+    text-align: right;
+    margin-top: 15px;
+}
+.control>div {
+    margin-left: 10px;
+}
+.comment-list-wrapper .comment-list {
+    margin-bottom: 40px;
+}
+.comment-list-wrapper .subtitle {
+    font-size: 16px;
+    font-weight: 500;
+}
+.comment-list-wrapper .comment-list .list>.comment {
+    padding: 20px 0;
+    -webkit-box-shadow: 0 1px 0 0 #ededed;
+    box-shadow: 0 1px 0 0 #ededed;
+}
+.comment-item .cover img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.comment-item .cover {
+    position: relative;
+}
+.comment-item .comment-main {
+    margin-left: 15px;
+    font-size: 14px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.comment-item .comment-main .user-info {
+    margin-bottom: 3px;
+}
+.comment-item .comment-main .user-info .user-name {
+    font-weight: 500;
+    margin-right: 10px;
+}
+.comment-item .comment-main .user-info>span {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.comment-item .comment-main .comment-text {
+    line-height: 24px;
+    font-weight: 300;
+    word-break: break-all;
+}
+.dis-none {
+    display: none;
+}

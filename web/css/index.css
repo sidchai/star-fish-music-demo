@@ -1,0 +1,27 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.my-title {
+    line-height: 59px;
+    text-align: right;
+}
+
+.my-height-div {
+    height: 60px
+}
+
+.my-title span {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "幼圆";
+}
+
+.my-content-iframe {
+    width: 100%;
+    height: 580px;
+    border: none;
+}

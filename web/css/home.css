@@ -1,0 +1,58 @@
+#test1 img {
+    height: 360px;
+    width: 960px;
+}
+
+.my-song-list {
+    padding: 15px 0 15px 42px;
+}
+
+.v-hd2 {
+    height: 33px;
+    padding: 0 10px 0 32px;
+    border-bottom: 2px solid #C10D0C;
+}
+
+.my-line {
+    border-left: 2px solid #eee;
+    border-right: 2px solid #eee;
+}
+
+.v-hd3 {
+    height: 50px;
+    padding: 20px 10px 0 26px;
+    border-bottom: 2px solid #C10D0C;
+}
+
+a {
+    color: #333;
+}
+
+.tit {
+    float: left;
+    font-size: 20px;
+    font-weight: inherit;
+    line-height: 28px;
+    padding-left: 10px;
+}
+
+.tab {
+    float: left;
+    margin: 7px 0 0 20px
+}
+
+.my-img-yd {
+    float: left;
+    padding-top: 5px
+}
+
+.my-copyright {
+    width: 100%;
+    line-height: 140px;
+    text-align: center;
+    color: #aaa;
+}
+.my-img-carousel {
+    width: 1080px;
+    height: 420px;
+}
